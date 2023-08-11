@@ -1,0 +1,357 @@
+.header{
+    width: 1390px;
+    height: 87px;
+    margin-left: 32.5px;
+    margin-right: 32.5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#logo{
+    position: relative;
+    z-index: 12;
+    width: 366px;
+    height: 50px;
+    margin: 15px 0 22px
+    
+}
+#logo .icon{
+    display: block;
+    margin-top: 2px;
+    width: 134px;
+    height: 42px;
+    background-image: url(https://misc.360buyimg.com/jdf/1.0.0/unit/global-header/5.0.0/i/jdlogo-201708-@2x.png);
+    background-size: 134px 42px;
+    text-indent: -20000px
+}
+#searchBar{
+    position: relative;
+    width: 800px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+#searchBar .form{
+    height: 40px;
+
+}
+#searchBar .text {
+    float: left;
+    width: 630px;
+    height: 24px;
+    line-height: 24px;
+    color: #999;
+    padding: 4px;
+    margin-bottom: 4px;
+    border-width: 2px 0 2px 2px;
+    border-color: #f30213;
+    border-style: solid;
+    outline: 0;
+    font-size: 12px
+}
+
+#searchBar .button {
+    float: left;
+    width: 80px;
+    height: 36px;
+    font-family: tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    background: #f30213;
+    border: none;
+    border-radius: 0;
+    line-height: 1;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer
+}
+
+#hot_words{
+    margin-left: 450px;
+    margin-top: -20px;
+}
+#hot_words a {
+    margin-right: 10px;
+    float: left;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+    font-family: tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    background-color:#f3f3f3;
+}
+
+
+#nav {
+    margin-top: 25px;
+    height: 33px;
+    border-bottom: 2px solid #f30213;
+    margin: -1;
+    _overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.redframe {
+    border-width: 2px 0 2px 2px;
+    background-color: #f30213;
+    border-color: #f30213;
+    border-style: solid;
+    width: 179px;
+    height: 30px;
+    margin-left: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    font-family: tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+}
+
+.redframe a{
+    color: #f3f3f3;
+    font-weight: lighter;
+}
+.nav_a {
+    margin-right: 22px;
+    margin-left: 22px;
+    font-weight: bold;
+    color:#333;
+    padding: 0 22px
+}
+.nav_a:hover{
+    color: red;
+}
+
+#result_bar{
+    margin-left: 35px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+#result_bar .text{
+    font-size: 13px;
+    font-weight: lighter;
+}
+#result_bar #red_a:hover{
+    color: red;
+}
+#result_bar .bold_text{
+    color:#f50606;
+    font-size: 13px;
+    font-weight: bold;
+}
+.goods_list{
+    margin-left: 27px;
+}
+.goods_list .goods_list_bar{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241)
+}
+.goods_list_page{
+    margin-left: 30px;
+}
+
+.arrow{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 23px;
+    color: #333;
+    margin-left: 6px;
+    padding: 0;
+    font-style: normal;
+    float: right;
+    width: 7px;
+    overflow: hidden;
+    background: url(https://storage.jd.com/retail-mall/search_list/pc/product/search/0.0.11/css/i/sprite-arrow.png) no-repeat 0 -100px;
+    height: 11px;
+    margin-top: 6px;
+}
+
+.goods_list_bar_a:hover  .arrow {
+    background-position: 0 -140px;
+  }
+
+
+
+.goods_list_bar_a{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-decoration: none;
+    float: left;
+    padding: 0 9px;
+    height: 23px;
+    border: 1px solid #CCC;
+    line-height: 23px;
+    margin-right: -1px;
+    background: #FFF;
+    color: #333;
+}
+.goods_list_bar_a:hover {
+    position: relative;
+    text-decoration: none;
+    border-color: #e4393c;
+    color: #e4393c;
+}
+
+.count{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 10px;
+    color: #999;
+}
+
+.goods_list_page{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+    margin: auto,auto;
+    padding: 0;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.goods_window{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    height: 474px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    margin-right: 0;
+    
+}
+.goods{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    float: left;
+    color: #666;
+    list-style: none;
+    margin: 0;
+    width: 220px;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 38px 9px 10px;
+    transition: border-color .1s ease;
+    display: inline-block;
+}
+.price{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.price_strong{   
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    line-height: 22px;
+    padding: 0;
+    font-weight: 400;
+    font-family: Verdana;
+    margin-right: 10px;
+    color: #e4393c;
+    font-size: 20px;
+}
+.goods_wapper .title{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 38px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.seller{
+    margin-top: 8px;
+}
+.J_im_icon{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
+    max-width: 122px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #999;
+}
+.goods_windows{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+.goods{
+    width: 18%; /* 每行显示的宽度为18% */
+    text-align: center;
+}
+.goods:hover{
+    z-index: 1;
+    border-color: #e9e9e9;
+    box-shadow: 0 0 2px 2px #f8f8f8
+}
+.Pic{
+    padding-top: 10px;
+}
+
+.fp-prev{
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    float: left;
+    width: 46px;
+    height: 23px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    line-height: 23px;
+    font-family: "\5b8b\4f53";
+    text-align: center;
+    font-size: 16px;
+    color: #AAA;
+    transition: transform 0.2s ease;
+    -webkit-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    -ms-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+}
+
+.fp-prev:hover {
+    background-color: #ccc;
+  }
+
+.fp-prev:active {
+    transform: translateY(1px);
+  }

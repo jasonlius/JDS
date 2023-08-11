@@ -1,0 +1,8 @@
+server:
+  port: 3020
+spring:
+  thymeleaf: cache=false
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 8.130.117.215:9300

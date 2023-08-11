@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翔东网</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div id="logo">
+            <a href="http://www.jd.com" class="icon">翔东</a>
+        </div>
+        <div id="searchBar">
+            <div class="form">
+                <input type="text" class="text">
+                <button class="button">搜索</button>
+            </div>
+        </div>
+    </div>
+    <div id="hot_words">
+        <a >翔东金融</a>
+        <a >|</a>
+        <a >翔东理财</a>
+        <a >|</a>
+        <a >翔东家电</a>
+        <a >|</a>
+        <a >翔东数码</a>
+        <a >|</a>
+        <a >翔东书城</a>
+        <a >|</a>
+        <a >翔东服饰</a>
+    </div>
+    <div id="nav">
+        <div class="redframe">
+            <a href="">全部商品分类</a>
+        </div>
+        <a class="nav_a" href="">美妆馆</a>
+        <a class="nav_a" href="">超市</a>
+        <a class="nav_a" href="">生鲜</a>
+        <a class="nav_a" href="">翔东国际</a>
+        <a class="nav_a" href="">拍卖</a>
+        <a class="nav_a" href="">金融</a>
+        <a class="nav_a" href="">五金城</a>
+
+
+    </div>
+
+    <div id="result_bar">
+        <a id="red_a"  class="text">全部结果</a>
+        <a class="text"> > </a>
+        <a class="bold_text" id="key_world_show">""</a>
+    </div>
+    <div class="goods_list">
+        <div class="goods_list_bar">
+            <div>
+                <a class="goods_list_bar_a">
+                    <i class="arrow"></i>
+                    <span>综合</span>  
+                </a>
+                <a class="goods_list_bar_a">
+                    <i class="arrow"></i>
+                    <span>销量</span>  
+                </a>
+                <a class="goods_list_bar_a">
+                    <i class="arrow"></i>
+                    <span>评论数</span>  
+                </a>
+                <a class="goods_list_bar_a">
+                    <i class="arrow"></i>
+                    <span>新品</span>  
+                </a>
+                <a class="goods_list_bar_a">
+                    <i class="arrow"></i>
+                    <span>价格</span>  
+                </a>
+            
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="count">
+                    共<b id="goods_acount" style="margin-right:4px;margin-left: 4px;color: red;">0</b>件商品
+                </div>
+                <div class="goods_list_page">
+                    <span style="margin-right: 15px;">
+                        <b id="page_num" style="color: red;">1</b>
+                        <em>/</em>
+                        <span id="all_page">0</span>
+                    </span>
+                    <a id="page_down" class="fp-prev"><</a>
+                    <a  id="page_up" class="fp-prev">></a>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+            <ul class="goods_windows">  
+                <li class="goods" id="template_li">
+                    <div class="goods_wapper">
+                        <div class="Pic">
+                            <img width="220" height="220" src="https://img11.360buyimg.com/n7/jfs/t1/101901/31/4493/320485/5de7723fE1188de50/1f22f7c3f78dddab.jpg" alt=""> 
+                        </div>
+                        <div class="price">
+                            <strong class="price_strong">
+                                <span>¥</span>
+                                <span class="goods_price_show">(模板)99999.99</span>
+                            </strong>
+                        </div>
+                        <div class="title">
+                            <a target="_blank" style="color: black;">
+                                <span  class="title_up">模板</span>
+                            </a>
+                        </div>
+
+                        <div class="commit" data-done="1">
+                            <strong><a style="color: rgb(100, 111, 176);">100+</a>条评价</strong>
+                        </div>
+                        <div class="seller">
+                            <span class="J_im_icon">
+                                <a class="seller_a">模版</a>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+        </ul>
+
+        </div>
+       
+    </div>
+</body>
+</html>
+
+<script src="/js/jds.js"></script>
