@@ -10,4 +10,4 @@
 
 ## 页面展示
 
-![翔东网页面](./image/demo.gif)
+![翔东网页面](image/demo.gif)
