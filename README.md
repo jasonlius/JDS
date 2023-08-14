@@ -1,4 +1,6 @@
 # JDS 仿京东搜索页面
+## 页面展示
+![翔东网页面](./image/demo.png)
 ## 核心功能
 - 后端数据：使用Jsoup从京东网站爬虫
 - 后端框架：使用spring boot整合ElasticSearch
@@ -8,6 +10,5 @@
 - 前端js：JavaScript+事件绑定+回调函数实现
 - 前端功能：查询，分页展示，商品关键词相关度排序
 
-## 页面展示
-
-![翔东网页面](image/demo.gif)
+## 动图展示
+![翔东网页面](./image/demo.gif)
