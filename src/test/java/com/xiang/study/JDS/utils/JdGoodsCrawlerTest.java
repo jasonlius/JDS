@@ -12,7 +12,7 @@ public class JdGoodsCrawlerTest {
     private JdGoodsCrawler jdGoodsCrawler;
     @Test
     void testGetJdDate(){
-       List<Goods> goodsList =  jdGoodsCrawler.GetJdDate("蓝牙耳机");
+       List<Goods> goodsList =  jdGoodsCrawler.GetJdDate("空调");
        for(Goods goods : goodsList){
            System.out.println(goods);
        }

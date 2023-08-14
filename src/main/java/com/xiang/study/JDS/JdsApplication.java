@@ -1,9 +1,11 @@
 package com.xiang.study.JDS;
 
 import com.xiang.study.JDS.config.CorsFilter;
+import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 
@@ -12,7 +14,7 @@ public class JdsApplication {
 
 	public static void main(String[] args) {
 
-		 SpringApplication.run(JdsApplication.class, args);
+		  SpringApplication.run(JdsApplication.class, args);
 
 	}
 	@Bean
